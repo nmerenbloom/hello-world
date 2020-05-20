@@ -4,13 +4,19 @@
     <meta charset="utf-8">
     <title>Hello, World</title>
     <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="myStyle.css">
 </head>
 
 <body>
     <script src="engine.js"></script>
     <div class="container">
-        <div class="row">
-            <div class="col-md-7">
+        <div class="flex-container">
+            <div class="flex-item">
+                <h3>Welcome!!!</h3>
+                <button class="btn btn-primary">Button!</button>
+            </div>
+
+            <div class="flex-item">
                 <h3>Welcome!!!</h3>
                 <button onClick=onNavigate() class="btn btn-primary">Button!</button>
                 <a href="noah.html">Noah</a>
@@ -18,7 +24,6 @@
         </div>
     </div>
 
-<!-- <script src="engine.js" type="module"></script> -->
 </body>
 
 </html>
