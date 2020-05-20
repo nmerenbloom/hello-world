@@ -1,0 +1,13 @@
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: stretch;
+    padding: 5px;
+}
+
+.flex-item {
+    margin: 5px;
+}
