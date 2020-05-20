@@ -9,4 +9,4 @@ new branch additions
 
 Added directly to master
 
--- Added from GitHub! --
+-- Added from GitHub --
