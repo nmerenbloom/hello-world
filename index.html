@@ -5,21 +5,22 @@
     <title>Hello, World</title>
     <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
     <link rel="stylesheet" href="myStyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
     <script src="engine.js"></script>
     <div class="container">
         <div class="row">
-            <div class="col-xs-12">
+            <div class="col-md-7">
                 <h3>Welcome!!!</h3>
                 <button onClick="onNavigate('toNoah')" class="btn btn-primary">Other Page</button>
             </div>
 
-            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                <h3>Welcome!!!</h3>
-                <button onClick="onNavigate('toNoah')" class="btn btn-primary">Button!</button>
-                <!-- <a href="noah.html">Noah</a> -->
+            <div class="col-xs-12">
+                <h3>Media</h3>
+                <button onClick="renderPic()" class="btn btn-primary">Render Pic!</button>
+                <div id="picRoot"></div>
             </div>
 
         </div>
