@@ -5,6 +5,7 @@
     <title>Hello, World</title>
     <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
     <link rel="stylesheet" href="myStyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -18,8 +19,8 @@
 
             <div class="col-xs-12">
                 <h3>Media</h3>
-                <button onClick="onNavigate('toNoah')" class="btn btn-primary">Render Pic!</button>
-                <div id="picAnchor"></div>
+                <button onClick="renderPic()" class="btn btn-primary">Render Pic!</button>
+                <div id="picRoot"></div>
             </div>
 
         </div>
