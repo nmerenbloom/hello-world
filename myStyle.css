@@ -15,8 +15,10 @@
 a {
     font-size: 24px;
     margin: 30px;
+
 }
 
 a:hover {
     border: 5px solid peachpuff;
+
 }
