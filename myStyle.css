@@ -11,3 +11,8 @@
 .flex-item {
     margin: 5px;
 }
+
+a {
+    font-size: 24px;
+    margin: 30px;
+}
